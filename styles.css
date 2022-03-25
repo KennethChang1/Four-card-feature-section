@@ -86,7 +86,9 @@ h1{
     }
 
     .card-container{
+        position: relative;
         width: 77%;
+        height: 530px;
     }
 
     .card{
@@ -94,22 +96,23 @@ h1{
     }
 
     .card:nth-child(1){
-        top: 7rem;
+        position: absolute;
+        top: 30%;
     }
 
     .card:nth-child(2){
         margin: auto;
-        top: -15rem;
     }
 
     .card:nth-child(3){
         margin: auto;
-        top: -13rem;
+        top: 2rem;
     }
 
     .card:nth-child(4){
-        left: 47.5rem;
-        top: -35rem;
+        position: absolute;
+        right: 0;
+        top: 30%;
     }
 
 }
